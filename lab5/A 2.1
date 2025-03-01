@@ -1,0 +1,15 @@
+// swap 2 numbers with using temp variable
+
+#include<stdio.h>
+void main(){
+    int a,b,c;  // c = temp variable
+    printf("Enter the value of a and b");
+    scanf("%d %d",&a,&b);
+   // b=c;   // c assign the value of b. -->eg; c=o &b=2 --> b=c --> b=0,c=2.
+    //a=b;
+    //c=a; //AAMA KEM ANS NATHI AAVATO
+    c=a;
+    a=b;
+    b=c;
+    printf("%d %d",a,b);
+}
