@@ -1,0 +1,1 @@
+// find HCF and LCM of given number.
